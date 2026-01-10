@@ -3,7 +3,7 @@ from huggingface_hub import InferenceClient
 # NOTE:
 # Token is used as per the reference guide followed for this project.
 # For production systems, environment variables are recommended.
-HF_TOKEN = "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"
+HF_TOKEN = "USE_THE_TRIPMATE_KEY"
 
 client = InferenceClient(
     model="meta-llama/Llama-3.2-3B-Instruct",
@@ -28,4 +28,5 @@ def generate_itinerary(prompt: str) -> str:
     )
 
     return response.choices[0].message.content
+
 #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
