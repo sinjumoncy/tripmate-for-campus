@@ -102,7 +102,7 @@ cd tripmate-for-campus
 ```
 ---
 ### 2 Edit the file
-Open utils/ai_helper.py and replace the USE_THE_TRIPMATE_KEY with this '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'
+Open utils/ai_helper.py and replace the USE_THE_TRIPMATE_KEY with the key provided below it.
 
 ---
 ### 3. Run the app
@@ -116,5 +116,6 @@ streamlit run app.py
 #### ***Sinju Moncy***  
 
 *TripMate for Campus was developed as an academic AI project focusing on practical problem-solving using Large Language Models and rule-based analytics.*
+
 
 
