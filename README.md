@@ -95,11 +95,26 @@ The system follows a **hybrid architecture**:
 git clone https://github.com/sinjumoncy/tripmate-for-campus.git
 cd tripmate-for-campus
 ```
+### 1. Clone the Repository
+```bash
+git clone https://github.com/sinjumoncy/tripmate-for-campus.git
+cd tripmate-for-campus
+```
 ---
+### 2 Edit the file
+Open utils/ai_helper.py and replace the USE_THE_TRIPMATE_KEY with this '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'
 
+---
+### 3. Run the app
+To run the app on you terminal use the below
+```bash
+streamlit run app.py
+```
+---
 ### 👩‍💻 Developed By
 
 #### ***Sinju Moncy***  
 
 *TripMate for Campus was developed as an academic AI project focusing on practical problem-solving using Large Language Models and rule-based analytics.*
+
 
