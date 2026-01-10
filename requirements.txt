@@ -1,0 +1,8 @@
+streamlit
+pandas
+transformers
+torch
+sentencepiece
+matplotlib
+huggingface-hub
+reportlab
