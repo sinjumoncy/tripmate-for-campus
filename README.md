@@ -90,11 +90,6 @@ The system follows a **hybrid architecture**:
 
 ## 📦 Installation & Setup
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/sinjumoncy/tripmate-for-campus.git
-cd tripmate-for-campus
-```
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/sinjumoncy/tripmate-for-campus.git
@@ -116,6 +111,7 @@ streamlit run app.py
 #### ***Sinju Moncy***  
 
 *TripMate for Campus was developed as an academic AI project focusing on practical problem-solving using Large Language Models and rule-based analytics.*
+
 
 
 
