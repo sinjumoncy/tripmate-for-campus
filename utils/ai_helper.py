@@ -1,8 +1,9 @@
+import os
 from huggingface_hub import InferenceClient
 
 client = InferenceClient(
     model="meta-llama/Llama-3.2-3B-Instruct",
-   token=os.getenv("HF_TOKEN")
+    token=os.getenv("HF_TOKEN")
 )
 
 def generate_itinerary(prompt: str) -> str:
@@ -23,6 +24,7 @@ def generate_itinerary(prompt: str) -> str:
     )
 
     return response.choices[0].message.content
+
 
 
 
