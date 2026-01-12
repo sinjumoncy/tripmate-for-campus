@@ -95,22 +95,37 @@ The system follows a **hybrid architecture**:
 git clone https://github.com/sinjumoncy/tripmate-for-campus.git
 cd tripmate-for-campus
 ```
----
-### 2 Edit the file
-Open utils/ai_helper.py and replace the USE_THE_TRIPMATE_KEY with the key provided below it. (if you are facing errors while using this key, please use one of your hugging face toke keys to run the app.)
+### 2. Configure Hugging Face Access Token (Required)
 
----
-### 3. Run the app
-To run the app on you terminal use the below
+This project uses LLaMA 3.2 via Hugging Face Inference API.
+For security reasons, the Hugging Face access token is not hardcoded in the repository.
+
+#### Option A: Set Environment Variable (Recommended)
+
+###### Windows (PowerShell):
 ```bash
-streamlit run app.py
+setx HF_TOKEN "hf_your_token_here"
 ```
+
+###### Linux / macOS:
+```bash
+export HF_TOKEN=hf_your_token_here
+```
+Restart the terminal / VS Code after setting the variable.
+
+#### Option B: Streamlit Cloud Deployment
+
+If deploying on Streamlit Cloud, add the token under:
+App Settings → Secrets
+HF_TOKEN = "hf_your_token_here"
+
 ---
 ### 👩‍💻 Developed By
 
 #### ***Sinju Moncy***  
 
 *TripMate for Campus was developed as an academic AI project focusing on practical problem-solving using Large Language Models and rule-based analytics.*
+
 
 
 
